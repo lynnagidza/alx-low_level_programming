@@ -1,5 +1,4 @@
 #include <unistd.h>
-
 /**
  * main - Entry point
  * Return: Always 1 (Success)
@@ -12,3 +11,4 @@ write(2,
 
 return (1);
 }
+
