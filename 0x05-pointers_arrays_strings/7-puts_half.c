@@ -3,7 +3,7 @@
  * Auth: Lynn Ekalaji
  */
 
-#include main.h
+#include "main.h"
 
 /**
  * puts_half - Prints half of a string.
