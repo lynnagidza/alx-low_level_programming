@@ -3,7 +3,7 @@
  * Auth: Lynn Ekalaji
  */
 
-#include main.h
+#include "main.h"
 
 /**
  * puts2 - Prints one char out of two of a string.
