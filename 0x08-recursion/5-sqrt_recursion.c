@@ -5,7 +5,7 @@
  * Auth: Lynn Ekalaji
  * Desc: A function that returns the natural square root of a number.
  */
- 
+
 int helper(int a, int b)
 {
 if (b * b > a)
@@ -19,6 +19,14 @@ return (helper(a, b + 1));
 
 return (1);
 }
+
+/**
+ * _sqrt_recursion - returns the natural square root of a number
+ *
+ * @n: the number to return the square root of
+ *
+ * Return: the square root of @n
+ */
 
 int _sqrt_recursion(int n)
 {
