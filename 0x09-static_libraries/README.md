@@ -1,0 +1,1 @@
+Allabout C - Static libraries
