@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
- * File: 4-pow_recursion.c
- * Auth: Lynn Ekalaji
- * Desc: A function that returns the value of x raised to the power of y.
+ * _pow_recursion - returns the value of @x raised to the power of @y
+ *
+ * @x: number
+ * @y: the power to raise @n to
+ *
+ * Return: the value of @x to the @y power
  */
 
 int _pow_recursion(int x, int y)

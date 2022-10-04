@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
- * File: 6-is_prime_number.c
- * Auth: Lynn Ekalaji
- * Desc: A function that returns 1 if the input integer is a prime number, otherwise returns 0.
+ * primeFinder - searches for if a number is prime
+ *
+ * @a: the number to check
+ * @b: the numbers we'll go through
+ *
+ * Return: Whether or not the number is a prime number
  */
 
 int primeFinder(int a, int b)

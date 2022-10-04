@@ -1,9 +1,13 @@
 #include "main.h"
 
 /**
- * File: 100-is_palindrome.c
- * Auth: Lynn Ekalaji
- * Desc: A function that returns 1 if a string is a palindrome and 0 if not.
+ * palindromeChecker - checks the string
+ *
+ * @str: the string to be checked
+ * @len: the length of the string
+ * @i: the incrementor, starts at 0
+ *
+ * Return: 1 if it's a palindrome, 0 if it's not
  */
 
 int palindromeChecker(char *str, int len, int i)
@@ -44,5 +48,4 @@ int is_palindrome(char *s)
 int i = 0;
 int length = _strlen_recursion(s) - 1;
 
-return (palindromeChecker(s, length, i));
-}
+return (palindromeChecker(s, length

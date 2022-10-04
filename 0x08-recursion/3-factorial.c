@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * File: 3-factorial.c
- * Auth: Lynn Ekalaji
- * Desc: A function that returns the factorial of a given number.
+ * factorial - returns the factorial of a given number
+ *
+ * @n: the number to find the factorials of
+ *
+ * Return: the factorial of @n
  */
 
 int factorial(int n)

@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
- * File: 5-sqrt_recursion.c
- * Auth: Lynn Ekalaji
- * Desc: A function that returns the natural square root of a number.
+ * helper - Finds the square root of two numbers
+ *
+ * @a: The number
+ * @b: The number to test for the square root of @a
+ *
+ * Return: square root
  */
 
 int helper(int a, int b)
