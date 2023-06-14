@@ -2,10 +2,13 @@
 #define _VARIADIC_FUNCTIONS_H_
 #include <stdarg.h>
 #include <stdio.h>
-/*
- * struct check - paramenters to check against
- * @c: type
- * @f: the function to send it to
+/**
+ * struct check - Parameters to check against.
+ * @chk: Type or parameter to check.
+ * @f: The function to process the parameter.
+ *
+ * Description: This structure is used to associate a type or parameter with
+ *              a corresponding processing function for variadic functions.
  */
 typedef struct check
 {
