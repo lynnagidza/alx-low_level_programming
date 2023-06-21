@@ -13,8 +13,8 @@
  */
 typedef struct list_s
 {
-    char *str;
-    struct list_s *next;
+char *str;
+struct list_s *next;
 } list_t;
 
 /* Function prototypes */
@@ -37,7 +37,7 @@ void free_list(list_t *head);
 /* Task 5 - The Hare and the Tortoise (Advanced) */
 void before_main(void) __attribute__((constructor));
 
-/* Task 6 - Real Programmers Can Write Assembly Code in Any Language (Advanced) */
+/* Task 6 - (Advanced) */
 void hello_holberton(void) __attribute__((constructor));
 
 #endif /* LISTS_H */
