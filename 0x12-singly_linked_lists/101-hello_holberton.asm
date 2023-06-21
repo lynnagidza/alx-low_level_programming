@@ -7,14 +7,21 @@ section .text
 
 _start:
     ; Prepare arguments for printf
-    mov rdi, format
-    mov rsi, hello
+    mov edi, format
+    mov esi, hello
+    xor eax, eax  ; Clear eax register
 
     ; Call printf
-    xor eax, eax  ; Clear eax register
+    push eax     ; Push 0 as the first argument
+    push esi     ; Push hello as the second argument
+    push edi     ; Push format as the third argument
     call printf
+
+    ; Clean up the stack
+    add esp, 12
 
     ; Exit the program
     xor eax, eax  ; Clear eax register
-    mov ebx, 0    ; Exit status code 0
-    int 0x80      ; Invoke the system call to exit
+    xor ebx, ebx  ; Exit status code 0
+    inc eax       ; Invoke the system call to exit
+    int 0x80      ; Perform the system call

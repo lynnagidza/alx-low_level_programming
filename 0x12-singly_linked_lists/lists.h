@@ -13,8 +13,8 @@
  */
 typedef struct list_s
 {
-char *str;
-struct list_s *next;
+	char *str;
+	struct list_s *next;
 } list_t;
 
 /* Function prototypes */
